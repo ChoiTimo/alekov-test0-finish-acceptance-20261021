@@ -44,7 +44,7 @@ flowchart LR
 
 ## 5. 제공 부분과 학생 구현 부분
 
-제공 부분은 시작 틀 manifest(`.on-starter-manifest.json`)에 적힌 파일입니다(`public/`, `src/`, `tools/`, 제공 문서 등). 이 참고 구현은 그 파일을 바꾸지 않습니다. 학생이 바꾼 파일은 `student/extension.mjs`와 이 문서, 22단계 기록 문서뿐입니다.
+제공 부분은 시작 틀 manifest(`.on-starter-manifest.json`)에 적힌 파일입니다(`public/`, `src/`, `tools/`, 제공 문서 등). 이 참고 구현은 제공 실행 코드를 바꾸지 않습니다. 학생이 바꾼 파일은 `student/extension.mjs`, `README.md`, 이 문서와 22단계 기록 문서입니다.
 
 | 학생 함수 | 보여 주는 것 |
 |---|---|
