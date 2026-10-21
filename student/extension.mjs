@@ -256,17 +256,19 @@ export function createStudentView() {
     // 17·18단계: 고른 기록의 근거·규칙·상태와 이어진 AI 설명(참고용). 실행 버튼은 만들지 않습니다.
     renderExplanation({ event, explanation, checkedAt } = {}) {
       const root = node('section', { 'data-student-view': 'explanation' });
-      if (!event) { root.append(line('보안 기록에서 기록을 먼저 고르세요')); return root; }
-      if (!explanation || explanation.status === 'idle') { root.append(line(`기록 ${shown(event.id)} · AI 설명 요청 전(idle) · 기록의 AI 설명 버튼을 직접 누르세요`)); return root; }
-      if (explanation.status === 'loading') { root.append(line(`기록 ${shown(event.id)} · AI 설명 요청 중입니다`)); return root; }
-      if (explanation.status !== 'ok') {
+      const failure = () => {
         const code = codeOf(explanation.error);
-        root.append(line(`AI 설명 실패: ${code} · ${messageOf(explanation.error)}`),
+        root.append(...[line(`AI 설명 실패: ${code} · ${messageOf(explanation.error)}`),
           /INVALID_INPUT/.test(code) ? line('설명할 수 없습니다(근거 부족·입력 오류).') : null,
           /INVALID_OUTPUT|UNVERIFIED/.test(code) ? line('AI 설명의 근거·조치·형식을 확인할 수 없어 이 설명은 쓸 수 없습니다(확인 불가).') : null,
-          line('기록은 그대로입니다. 과제 실패가 아닙니다.'));
+          line('기록은 그대로입니다. 과제 실패가 아닙니다.')].filter(Boolean));
         return root;
-      }
+      };
+      // 제공 화면은 설명에 쓸 수 없는 기록이면 event 없이 오류만 넘깁니다(public/app.js:993-1000).
+      if (!event) { if (explanation?.status === 'error') return failure(); root.append(line('보안 기록에서 기록을 먼저 고르세요')); return root; }
+      if (!explanation || explanation.status === 'idle') { root.append(line(`기록 ${shown(event.id)} · AI 설명 요청 전(idle) · 기록의 AI 설명 버튼을 직접 누르세요`)); return root; }
+      if (explanation.status === 'loading') { root.append(line(`기록 ${shown(event.id)} · AI 설명 요청 중입니다`)); return root; }
+      if (explanation.status !== 'ok') return failure();
       const x = explanation.data ?? {};
       const evidence = new Map((Array.isArray(event.evidence) ? event.evidence : []).map((r) => [r.id, r.text]));
       const cited = Array.isArray(x.evidenceIds) ? x.evidenceIds : [];
