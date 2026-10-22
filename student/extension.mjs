@@ -320,6 +320,7 @@ export function createStudentView() {
         : uncertain ? text.unknown
         : Object.hasOwn(text, s.status) ? text[s.status] : `상태 확인 불가(${shown(s.status)})`;
       root.append(line(status));
+      if ((s.status === 'denied' || s.status === 'failed') && typeof s.message === 'string' && s.message) root.append(line(shown(s.message)));
       if (s.event?.id) root.append(line(`사건 ${shown(s.event.id)} · 근거 ${(Array.isArray(s.event.evidence) ? s.event.evidence : []).map((e) => shown(e.id)).join(', ') || '없음'}`));
       if (s.actionId) root.append(line(`조치 ${shown(s.actionId)}`));
       if (s.target) root.append(line(`실제 대상 ${shown(s.target.id)} · 세대 ${shown(s.target.generation)}`));
