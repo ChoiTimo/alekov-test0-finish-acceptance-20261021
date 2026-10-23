@@ -41,7 +41,7 @@
 - 학생 프로젝트 절대 경로를 확인합니다. 기존 파일을 덮어쓰거나 지우거나 초기화하지 않습니다.
 - 실행은 [STUDENT_LAUNCH_GUIDE.md](STUDENT_LAUNCH_GUIDE.md)의 실행 도구를 사용합니다. 학생 AI 연결을 위해 `.env`에 주소·열쇠·모델 값을 입력하지 않습니다.
 - `npm start`는 `127.0.0.1:5189`이며 기본은 미연결입니다. `npm run demo`는 예제일 뿐 실제 연결이 아닙니다.
-- 시작 틀 `package.json`의 스크립트는 `start`·`demo`·`test` 세 가지입니다. `student/extension.mjs` 문법만 따로 보려면 `node --check student/extension.mjs`를 씁니다.
+- 이 커밋의 `package.json` 스크립트는 `start`·`demo`·`check`·`package-app` 네 가지입니다. `npm run check`는 `student/extension.mjs` 문법만 확인하며, 전체 기능이나 실제 AI 연결을 검증하지 않습니다. `npm test` 스크립트는 없습니다. 포장 절차는 `docs/PACKAGE_APP.md`를 따르며, `npm run package-app` 실행 자체를 설치·연결 성공으로 보지 않습니다.
 
 ## 담당자가 native 호스트 설정을 안내한 경우
 
