@@ -1,10 +1,28 @@
 {
   "schema": "test0.reproduction.code-equality.v1",
   "verifiedCodeCommit": "d72bb6f964399e239ddf4bd83845b45b3e773d28",
-  "scope": "All tracked student/src/public/tools files plus package.json; Git blob bytes, not Windows working-tree EOL conversions",
+  "scope": "All tracked paths outside docs/, including vendor/clco-http.mjs, package.json, .env.example, starter manifest and README; exact Git blob bytes",
   "recordOnlyChanges": true,
-  "fileCount": 52,
+  "fileCount": 57,
   "files": [
+    {
+      "path": ".env.example",
+      "bytes": 478,
+      "sha256": "fbc0a9f437b223855806a4239ba7b9c8b2e7b81e1c6e65337027cbfc43278aa8",
+      "gitBlob": "8eeef89c28b975fe8a4aa7b793b1137ada0ba31c"
+    },
+    {
+      "path": ".on-starter-manifest.json",
+      "bytes": 7174,
+      "sha256": "8fc27d2341908d809640c127a4a058f838516315ace007df32af6b7ea0a54489",
+      "gitBlob": "2c2553707335d3b66c293baf6fee99c2c8703dce"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3410,
+      "sha256": "f801901680afe88bb03c30c1f0939a13c1e13bb2bd8373656a8311c4190b0c56",
+      "gitBlob": "fdfb1934eb22b101066569bdbe9fbf700de5c257"
+    },
     {
       "path": "package.json",
       "bytes": 339,
@@ -316,6 +334,18 @@
       "bytes": 13305,
       "sha256": "226e5a1fccf0adf9e3d99af755b289de7ae03369cb2bc7492e035ec71b383f2a",
       "gitBlob": "a69a0e01b79dc6e68aa3723a170747227f723397"
+    },
+    {
+      "path": "vendor/NOTICE.md",
+      "bytes": 1374,
+      "sha256": "c06c09e7d859023fa585c2228e2e9b7f4c82d32a5083ffd6eeffa26fcb8aa1af",
+      "gitBlob": "635732fab5d1a8669f5aac5c8ad85513e11d619b"
+    },
+    {
+      "path": "vendor/clco-http.mjs",
+      "bytes": 9198,
+      "sha256": "7b846092ac7a00975e00c2001d63bf47dd5818b73513349c26cedd3dbded6289",
+      "gitBlob": "d5e09826819cda73d0b1c33f1df6ea4d28bfb612"
     }
   ]
 }
