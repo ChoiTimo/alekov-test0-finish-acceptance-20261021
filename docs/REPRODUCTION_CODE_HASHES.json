@@ -1,0 +1,321 @@
+{
+  "schema": "test0.reproduction.code-equality.v1",
+  "verifiedCodeCommit": "d72bb6f964399e239ddf4bd83845b45b3e773d28",
+  "scope": "All tracked student/src/public/tools files plus package.json; Git blob bytes, not Windows working-tree EOL conversions",
+  "recordOnlyChanges": true,
+  "fileCount": 52,
+  "files": [
+    {
+      "path": "package.json",
+      "bytes": 339,
+      "sha256": "f626b80dfc549c16ba31386ae57aebf80b8881d5fef3d3c16a7c0287ca5dd2e5",
+      "gitBlob": "66632803bd41d23459578728dcfb87b8230a4dc3"
+    },
+    {
+      "path": "public/ai-connect.mjs",
+      "bytes": 48280,
+      "sha256": "9ad5341a999a9b85c709c44fe42d3a4710c7b500a4f043b30a8deff9243a5614",
+      "gitBlob": "88aa8b1958b83a810b76f9dca6ed96ed8d6e33c4"
+    },
+    {
+      "path": "public/app.js",
+      "bytes": 79123,
+      "sha256": "661ac5e81e80b8cc397b3e43f31d29c6b172c091d70cf0dca57aa2e9406cfde2",
+      "gitBlob": "a6b4a3b44400ba1178f494a239c334f985c799d4"
+    },
+    {
+      "path": "public/assets/alekov/alekov-ai-explain.webp",
+      "bytes": 14830,
+      "sha256": "b79ad565ffd2de876bdda37fb5905f3a57e2fead979bced926d51697bec86850",
+      "gitBlob": "0c092ac3baf382f796863914863616eb3debabcf"
+    },
+    {
+      "path": "public/assets/alekov/alekov-app-icon.webp",
+      "bytes": 21604,
+      "sha256": "2c00e676ea754092c78dfd97a1ae3767e511b642b930266689730e55b67b68aa",
+      "gitBlob": "a071b6dff9f9b092baecd0f2ad1be24b28c7e8fd"
+    },
+    {
+      "path": "public/assets/alekov/alekov-connect-approval.webp",
+      "bytes": 17884,
+      "sha256": "942f4a5a9d158c371a4055592f673baf94a71b6dad42e7f0a07443c9ccb94f36",
+      "gitBlob": "dc80dcd31acc68a355634d58ddf063600b25c9f0"
+    },
+    {
+      "path": "public/assets/alekov/alekov-connection-unknown.webp",
+      "bytes": 14682,
+      "sha256": "ef9ee29d40246b50a97f8d51f1f13f60013697a601fa7310c735192d52592ccc",
+      "gitBlob": "984acb6bf04c6549d6060abb573641221255d5e9"
+    },
+    {
+      "path": "public/assets/alekov/alekov-empty-records.webp",
+      "bytes": 18206,
+      "sha256": "b124bf1cc0a40e35d3fbfbdb103496f8217db72a8ce4e637bd3b901f264f033b",
+      "gitBlob": "c21e2bc096ff233af964916cb56276884a55ffb3"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 17354,
+      "sha256": "97d142e2a7f807dfd21eff7bc18e23097587a3af376345093a3f8f748c7e4910",
+      "gitBlob": "1443cf952a66d42209691fbeb12c106d3146abc8"
+    },
+    {
+      "path": "public/student-appearance.mjs",
+      "bytes": 8298,
+      "sha256": "1dfc20e8458871c78ff6e17cfdd3d64ff064a98092f7459d27c9fce7f5a0bd28",
+      "gitBlob": "f6ab8e4f5810150e4e0bc2fa14c6354744408678"
+    },
+    {
+      "path": "public/style.css",
+      "bytes": 11381,
+      "sha256": "298776b02706aa6031fea7e279f2ba2eb2f1d711778f5e046d68bffa990dfcf9",
+      "gitBlob": "925bf85d8c2287731000f3254ec492c360a27371"
+    },
+    {
+      "path": "public/vulnerabilities-view.mjs",
+      "bytes": 14196,
+      "sha256": "c48b75582931e38b7175b9d66286b71951ba9794f4762d7fb3ddfe66cb4656fd",
+      "gitBlob": "31adffd9701df776ded8bbbf866e7f22aae160e9"
+    },
+    {
+      "path": "src/actions/README.md",
+      "bytes": 8511,
+      "sha256": "e426821d281db0810a02744183102013948c5a89a99a83b54b46345357539368",
+      "gitBlob": "c8b8b64cce414509d2d58f97f695f21bdcac8ef7"
+    },
+    {
+      "path": "src/actions/action-startup-config.mjs",
+      "bytes": 5766,
+      "sha256": "c3a47f6da50a17a493b94d5573461a5cbd99322bd0c4fb19dcc57eba723dfa21",
+      "gitBlob": "fe6cdd8b865760a041ea8a12ba1debf977be7146"
+    },
+    {
+      "path": "src/actions/sdp-action-engine.mjs",
+      "bytes": 2881,
+      "sha256": "d6965c31ecfab7dfcc6c7c9ef34056ebf2fef85af874050a2162c3b6d1b5f0e9",
+      "gitBlob": "4a956969f3a9dc26cc571bde4ea76c63eb690d87"
+    },
+    {
+      "path": "src/actions/service.mjs",
+      "bytes": 17748,
+      "sha256": "7c25ef5696b211be0fef6fe80c79efe842681658f1be5eee0219c9871b7a066f",
+      "gitBlob": "3cebdf1c4f80db6872221e0d7f9afaf99cbc13ab"
+    },
+    {
+      "path": "src/actions/store.mjs",
+      "bytes": 6800,
+      "sha256": "b75f4e73f007ffabb9f38cc6d092c444b0736af9a8b4d4f2c3912539718927d1",
+      "gitBlob": "d91ecef6bc0dddbee6a8841367f7cb7be05d67b6"
+    },
+    {
+      "path": "src/ai/README.md",
+      "bytes": 16203,
+      "sha256": "de805a96f03a05988d27ea8bcf5d561e56d6ee6e67cdde114bb8b24c208c2454",
+      "gitBlob": "46916df399801f1b61ea5454b897d511008f90df"
+    },
+    {
+      "path": "src/ai/app-authorization.mjs",
+      "bytes": 9612,
+      "sha256": "f141f0654c5cb2366c6aa9bb85c7fc87f42ea20dfa29756f8bfae6f2e7046c6a",
+      "gitBlob": "24d29ab42cf4f6b34c8ebd1a3ce533348088a7d6"
+    },
+    {
+      "path": "src/ai/connection.mjs",
+      "bytes": 11516,
+      "sha256": "c94a999d8fda46bfbf6234a00462d1143514a520922285f608c3d6f2dc252a79",
+      "gitBlob": "316a1abb222417b720f7b8c62d8b8fce66f18a68"
+    },
+    {
+      "path": "src/ai/credential-vault.mjs",
+      "bytes": 10097,
+      "sha256": "94a3c22cd2283338f0e1cf1cc58d56709807606da8dd34b26c43a37d51799cf2",
+      "gitBlob": "516a4f805338f219a34881cc2749e0f8e0fe6e55"
+    },
+    {
+      "path": "src/ai/learner-support-contract.mjs",
+      "bytes": 10231,
+      "sha256": "a5fd67792c31f1cdc575587b893afdaac1139e42f98a0dd99c4b9525461d3240",
+      "gitBlob": "35c8f2aa68054355c61f59b33cd2c6e25d724881"
+    },
+    {
+      "path": "src/ai/service.mjs",
+      "bytes": 38087,
+      "sha256": "cca28895bbc57319b974dff52ca711f1f47ca0c7a976c1980d08b6dff31b7360",
+      "gitBlob": "067a08e098f0fdb8f00494fe9ac171b1434e3e6d"
+    },
+    {
+      "path": "src/ai/vault-service.mjs",
+      "bytes": 11647,
+      "sha256": "07814933b42f5b795ffd5a547e9434f4086eaebf0135004880747fd981a4a13b",
+      "gitBlob": "b8d67435c73854f3715fb957d819ea55f0ed8984"
+    },
+    {
+      "path": "src/connection/manager.mjs",
+      "bytes": 28523,
+      "sha256": "14e14b38fa83273bc85624111aa78946515709c87805954d4443828bd4c47383",
+      "gitBlob": "6c097cade6e8cdc9e4d9d0df914fe869dfe087c4"
+    },
+    {
+      "path": "src/connection/native-context.mjs",
+      "bytes": 23073,
+      "sha256": "fa7b45a4b9429251787eda8f67146ae5516af76eaa743cc2f70ed5d19c385771",
+      "gitBlob": "9321115d01461759550994d8d50153f532dd433f"
+    },
+    {
+      "path": "src/connection/native-login.mjs",
+      "bytes": 20177,
+      "sha256": "a938562fd6b080113d8ee5bec69606ae723cce863a03a2f1938065993b7f4064",
+      "gitBlob": "7a7774929ed079ece277b0f9d1ed51f6aaf4849a"
+    },
+    {
+      "path": "src/engine.mjs",
+      "bytes": 2748,
+      "sha256": "67a4f794eccbe7c5ba922b030cacb92c1473e2f9ef6ab1a69f8619a3292c58df",
+      "gitBlob": "6ceb3560da2ecd3cd4b29789204b4432f6073c69"
+    },
+    {
+      "path": "src/engine/sdp-host-config.mjs",
+      "bytes": 19590,
+      "sha256": "c418f55ebd273b8ac9dc4f37ffd20bc19dbaa5f68fc1c49c07a03bf44d08822f",
+      "gitBlob": "23127c8113e40bbd2dd379ec64239b453d02363c"
+    },
+    {
+      "path": "src/engine/sdp-host.mjs",
+      "bytes": 36657,
+      "sha256": "70037627d873bac50e2f290e66a861b2a8ec2ec6adf7f5c1dbb3561ff9a2f403",
+      "gitBlob": "5fd341e248dae8aa515e2512c440f7ee1c18d35c"
+    },
+    {
+      "path": "src/engine/student-engine-ipc.mjs",
+      "bytes": 7040,
+      "sha256": "1ce4859f91f27bf594fcee5f47655c22bb1f82b552f5bd37f13147851be1a0f2",
+      "gitBlob": "3c35a1e270729db65e96f15c7a548354a923d9e2"
+    },
+    {
+      "path": "src/engine/student-engine-worker.mjs",
+      "bytes": 1813,
+      "sha256": "faf9431735822d7fd1e87435288f3c6c7e3b4504572d25b337f8ae34ffbc6986",
+      "gitBlob": "b738aa1fc3e763451a0ca0ae324e52813ee61435"
+    },
+    {
+      "path": "src/engine/trusted-app-assembly.mjs",
+      "bytes": 6204,
+      "sha256": "39720f5d80e6e25282bfce63affe80b9a765f355ad0d70fcb2ba7a120d87651b",
+      "gitBlob": "f6803f87e241c0fd41990e0a8496ccc89e79f0cf"
+    },
+    {
+      "path": "src/learner-support/service.mjs",
+      "bytes": 7309,
+      "sha256": "0271330068606e98cd49d8c7751183df5726d75b004d992efd14e1107132cb55",
+      "gitBlob": "81358fa5212c4381209ed51ce321e1e127a09ecd"
+    },
+    {
+      "path": "src/server.mjs",
+      "bytes": 84622,
+      "sha256": "1ddd1f372d9ba07de8f72f4bcaaeccba5381249b72fd28e27b80bf19c0786416",
+      "gitBlob": "bee9a9e973cc18891117d7012029c1ef2ba1d8da"
+    },
+    {
+      "path": "src/student-appearance-files.mjs",
+      "bytes": 6207,
+      "sha256": "f03e59a78ebd0643154e155feb07fd81f47dfdbb2da92f1a464a47516fa0348a",
+      "gitBlob": "cfc0e350275207c32ce94f1c150b57a93b33623a"
+    },
+    {
+      "path": "src/student-appearance.mjs",
+      "bytes": 20897,
+      "sha256": "d1cbcdb617e1f9ad665b02a2de72088337e35ce21f72eaea6abf2d3e99996db1",
+      "gitBlob": "c30a637df131d310d2486608b520cdd0956c8cb7"
+    },
+    {
+      "path": "src/vulnerabilities/README.md",
+      "bytes": 7357,
+      "sha256": "e797072e12671fc3d3840423398abfcf3d3e84e5f1f1d5be995dbf76563af225",
+      "gitBlob": "848ce9eb5ba8c892c0bf0126e0867d2afa51b9e2"
+    },
+    {
+      "path": "src/vulnerabilities/osv.mjs",
+      "bytes": 9857,
+      "sha256": "c49abd811168e4879fa82eeb23638e4fe86751ef5e52a9eba4eccff46261a914",
+      "gitBlob": "c7753ca36ab66ed7cfcc77eba473a81763ea44fd"
+    },
+    {
+      "path": "src/vulnerabilities/project-scan.mjs",
+      "bytes": 11345,
+      "sha256": "ce4e56b2bc823be3835bbb5a3416d5506d1de96688e34d684894f42bba1f1154",
+      "gitBlob": "5a6725a8de1f693f978fbc08bc3757f7a74dab91"
+    },
+    {
+      "path": "student/engine-adapter.mjs",
+      "bytes": 1527,
+      "sha256": "a097322e58b11aa48d87369e67e48a7a8bf72416d958c1e101e17d3b77fbf838",
+      "gitBlob": "4b1f88460e223825285337aa1bab06378cc0767f"
+    },
+    {
+      "path": "student/extension.mjs",
+      "bytes": 28428,
+      "sha256": "fda763caa6ae16df3e2322a6ef1e5c917a61e3f7074c4c0405013f5391f06924",
+      "gitBlob": "6343cb8bc3c8b502dcbcf5079c1e040c8afc82b0"
+    },
+    {
+      "path": "tools/app-credentials.ps1",
+      "bytes": 18482,
+      "sha256": "76998e5779f5937785a48c17e1b09ffce05c638037951255374ce3dc05f32c87",
+      "gitBlob": "98f7d9fd77da48f28b6bc641929b11f6007e187c"
+    },
+    {
+      "path": "tools/export-student-package.mjs",
+      "bytes": 29290,
+      "sha256": "ef9b271ebce65e6b2ed4722f43af9d1338d9fc4cb659404f6860e7ec1a9082f2",
+      "gitBlob": "c3446ed8ec11f9c845b9d6fb1a579d4bdcdac69d"
+    },
+    {
+      "path": "tools/install-packaged-app.ps1",
+      "bytes": 34848,
+      "sha256": "ea5a5c83cb7866e4f5e974deb86a6401cc53f0e9add34810e427c9559f20e1d7",
+      "gitBlob": "4b3c7d51f377bc9e373cc1d0c477a6b1f3bc30b6"
+    },
+    {
+      "path": "tools/native-host-registry.ps1",
+      "bytes": 17828,
+      "sha256": "574dd03c9e00ce36431ebb8efa020a6e960654cb5c03b658e9ace85575bf8c36",
+      "gitBlob": "6a3f18c73a46c28f328c22232ca07c94d8d015d4"
+    },
+    {
+      "path": "tools/package-app-support.mjs",
+      "bytes": 18176,
+      "sha256": "0986d039d0a8cfedcb15c3cf7b7d1680f7c46ead36e3c0ff1ecac898e0d313ba",
+      "gitBlob": "bdeac4c17c8b663236a46d252fd4d7960882ae93"
+    },
+    {
+      "path": "tools/package-app.mjs",
+      "bytes": 17936,
+      "sha256": "fffb3811d8d4aea1c3135728ab72d666a57c84c4b1be3394136e723e1d92a59e",
+      "gitBlob": "6afa4f9e9ab7ccc6aa2d0fa65354a36760bebc35"
+    },
+    {
+      "path": "tools/package-finish-materials.mjs",
+      "bytes": 10658,
+      "sha256": "7617daecfc5af94e8d87762560198caf4a8069d84e4f9f59d30235f4aff3531f",
+      "gitBlob": "8ad6296bfd5355a5a70fecac2e1e0088e757493e"
+    },
+    {
+      "path": "tools/prepare-native-host.ps1",
+      "bytes": 12174,
+      "sha256": "5ab1a6f3398a0593dfc816994d18b7e206f83602ddfc09ffa974d90a70b10bd8",
+      "gitBlob": "5847ef6fa9d3224efc31caf66f6133720971e76b"
+    },
+    {
+      "path": "tools/provided-runtime.mjs",
+      "bytes": 15542,
+      "sha256": "43e3110f5333299f137fa5b8009f14ccca44e4475567dae2122ef1bde75ddb96",
+      "gitBlob": "c0c4223056c4601f50338ee9af7980d162f42dd6"
+    },
+    {
+      "path": "tools/start-alekov.ps1",
+      "bytes": 13305,
+      "sha256": "226e5a1fccf0adf9e3d99af755b289de7ae03369cb2bc7492e035ec71b383f2a",
+      "gitBlob": "a69a0e01b79dc6e68aa3723a170747227f723397"
+    }
+  ]
+}
